@@ -1,0 +1,12 @@
+{
+  "name": "em-consumer",
+  "version": "0.0.1",
+  "engines": {
+    "node": "10.x.x"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cfenv": "latest",
+    "@sap/xb-msg-amqp-v100": "latest"
+  }
+}

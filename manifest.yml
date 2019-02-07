@@ -1,0 +1,10 @@
+---
+applications:
+- name: em-consumer
+  random-route: true
+  memory: 128M
+services:
+  - em
+env:
+  EM_SERVICE: em
+  EM_SOURCE: queue:s4hc
